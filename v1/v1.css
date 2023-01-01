@@ -1,0 +1,29 @@
+.game-board {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: #d9d9d9;
+    border: 100px solid black;
+   }
+
+.box:nth-child(even) {
+    background-color: white;
+}
+
+.box:nth-child(odd) {
+    background-color: black;
+}
+
+.hawk {
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+}
+
+.chipmunk {
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+}
