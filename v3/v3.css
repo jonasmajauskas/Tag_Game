@@ -15,12 +15,12 @@ h2 {
     margin: 10px;
     font-size: 1em;
 }
-
 .game-board {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .box {
@@ -48,18 +48,42 @@ h2 {
 
 .player1 {
     border-style: solid;
-    padding: 0 2em 2em 2em;
+    padding: 1em 2em 1em 2em;
     text-align: center;
 }
 
 .player2 {
     border-style: solid;
-    padding: 0 2em 2em 2em;
+    padding: 1em 2em 2em 2em;
     text-align: center;
 }
 
-.animalshots {
+.player1icon {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+}
+
+.player2icon {
     height: 60px;
     width: 60px;
     align-items:center
+}
+
+.icon1 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 4%;
+}
+
+.icon2 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    right: 4%;
 }

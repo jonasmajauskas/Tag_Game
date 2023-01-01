@@ -1,10 +1,15 @@
-let chipmunkplayer = document.createElement("img");
-chipmunkplayer.src = "/images/chipmunk.jpg";
-document.body.appendChild(chipmunkplayer);
+function Start() {
+    let startnow = prompt("Player 1 to move. Drag your icon to an adjacent box.");
+}
 
-chipmunkplayer.style.height = "60px";
-chipmunkplayer.style.width = "60px";
+button1.addEventListener("click", Begin)
 
-function player1start ()
-let ar el = document.getElementById("yabanner");
-chipmunkplayer.innerHTML="<img src=\"http://placehold.it/350x350\" width=\"400px\" height=\"150px\">";
+function Begin() {
+    let startnow = prompt("Player 1 to move.")
+}
+
+icon1.addEventListener("click", Move)
+
+function Move() {
+    
+}
