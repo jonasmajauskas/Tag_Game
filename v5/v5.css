@@ -3,6 +3,10 @@
     margin: 10px;
 }
 
+body {
+    user-select: none;
+}
+
 h1 {
     border-spacing: 10px;
     text-align: center;
@@ -23,18 +27,18 @@ h2 {
     position: relative;
 }
 
-.box {
+.dropzone {
     background-color: #d9d9d9;
     border: 1px solid black;
     width: 100px;
     height: 100px;
 }
 
-.box:nth-child(even) {
+.dropzone:nth-child(even) {
     background-color: white;
 }
 
-.box:nth-child(odd) {
+.dropzone:nth-child(odd) {
     background-color: black;
 }
 
@@ -70,7 +74,16 @@ h2 {
     align-items:center
 }
 
-.icon1 {
+#draggable {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 4%;
+}
+
+.hawk {
     height: 60px;
     width: 60px;
     position: absolute;
