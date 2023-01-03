@@ -1,0 +1,115 @@
+.title {
+    border-style: solid;
+    margin: 10px;
+    max-width: 950px;
+    align-self: center;
+}
+
+h1 {
+    border-spacing: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 1em;
+}
+
+button {
+    height: 35px;
+    align-self: center;
+    margin-right: 00px;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 950px;
+    align-self: center;
+    margin: 10px;
+}
+
+.dropzone {
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.dropzone:nth-child(even) {
+    background-color: white;
+}
+
+.dropzone:nth-child(odd) {
+    background-color: black;
+}
+
+.players {
+    align-content: space-evenly;
+    justify-content: space-between;
+    display: flex;
+    margin: 11px;
+    row-gap: 100px;
+    max-width: 950px;
+    align-self: center;
+    margin-left: 26px;
+    margin-right: 180px;
+}
+
+.player1 {
+    border-style: solid;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+}
+
+.player2 {
+    border-style: solid;
+    padding: 1em 2em 2em 2em;
+    text-align: center;
+}
+
+.player1icon {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+}
+
+.player2icon {
+    height: 60px;
+    width: 60px;
+    align-items:center
+}
+
+#draggable {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 4%;
+}
+
+.hawk {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 4%;
+}
+
+.icon2 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    right: 4%;
+}
